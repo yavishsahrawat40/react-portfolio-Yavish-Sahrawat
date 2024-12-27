@@ -16,8 +16,8 @@ const handdleIconCLick = (url) => {
 const Navbar = () => {
   return (
     <nav className='flex justify-between w-full h-60'>
-      <div>
-        <img className='w-20' src="/src/assets/Y.png" alt="" />
+      <div className='mt-4'>
+        <span className='text-4xl w-20 bg-gradient-to-r from-purple-500 via-slate-400 to-pink-400 bg-clip-text text-4xl tracking-tight text-transparent' >YS</span>
       </div>
       <div className='m-8 flex justify-center items-center gap-6 w-32 h-5'>
         {iconLink.map((icon, index) => (
